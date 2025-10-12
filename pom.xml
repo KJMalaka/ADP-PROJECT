@@ -7,8 +7,17 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>24</maven.compiler.release>
+        <maven.compiler.release>8</maven.compiler.release>
         <exec.mainClass>za.ac.cput.firstpage.FirstPage</exec.mainClass>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>10.14.2.0</version>
+        </dependency>
+    </dependencies>
+
     <name>Project</name>
 </project>
